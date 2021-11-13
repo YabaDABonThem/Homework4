@@ -215,7 +215,7 @@ public class ManipulateImage {
                 saveImage(outputImage, fileNameOutput);
                 System.out.println("The image " + fileName + " has been 'un-hidden', and saved to " + fileNameOutput);
             } 
-            else if (action.equals("w")) {s 
+            else if (action.equals("w")) { 
                 outputImage = blackoutWhiteoutImage(inputImage, "w");
 
                 saveImage(outputImage, fileNameOutput);
